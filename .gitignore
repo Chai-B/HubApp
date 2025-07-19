@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment and secrets
+.env
+.env.*
+.env.sample
+*.env
+
+# Credentials
+*credentials*
+*secret*
+*.key
+*.pem
+*.p12
+hubapp-acfaa-firebase-adminsdk-fbsvc-7d17c00386.json
+
+# Cache
+.cache/
+.cache
+
+# Build and output
+.next/
+out/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Misc
+.DS_Store
